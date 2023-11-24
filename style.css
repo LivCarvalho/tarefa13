@@ -1,0 +1,83 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+}
+
+body,
+.btn-menu{
+    background:#EDE0C0;
+}
+
+header, footer{
+    background-color:#0B0A5E;
+    color:#EDE0C0;
+}
+
+header h1,
+.nav-style{
+    color:#EDE0C0;
+}
+
+header h1,
+.title{
+    font-style: italic;
+    font-family: 'Playpen Sans', cursive;
+}
+
+.dropdown>button,
+#menu>.navbar-nav>.nav-item>.nav-link.active{
+    background-color: #EDE0C0;
+    color: #1313DF;
+}
+
+.dropdown>button:hover,
+.nav-style:hover{
+    background-color:#E1B07E;
+    color: black;
+}
+
+.dropdown>button::after{
+    content: none;
+}
+
+.header-item>a, .dropdown-toggle{
+    color: #EDE0C0;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.header-item>a:hover{
+    cursor: pointer;
+    border-bottom: 1px solid #F0EFF4;
+    padding-bottom: 2px;
+}
+
+.title{
+    color:  #2E2CDE;
+}
+
+.subtitle{
+    color: #1313DF;
+}
+
+div>textarea{
+    display: flex;
+    flex-wrap: wrap;
+    resize: none;
+}
+
+.btn{
+    color:#EDE0C0;
+    background-color: #1313DF;
+}
+
+.btn:hover{
+    background-color: #2E2CDE;
+    color: black;
+}
+
+label.error{
+    margin-top: 0;
+    font-size: 18px;
+    color: red;
+}
